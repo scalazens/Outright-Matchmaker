@@ -1,0 +1,6 @@
+#External Dependencies
+#Wed Oct 19 10:37:14 PDT 2011
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar=Plugins.scala
+/Users/sindhuc/outright/outright-kickstart/matchmaker/project/boot/scala-2.7.7/lib/scala-library.jar=Plugins.scala
+/Users/sindhuc/outright/outright-kickstart/matchmaker/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/sbt_2.7.7-0.7.4.jar=Plugins.scala
+/Users/sindhuc/outright/outright-kickstart/matchmaker/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/ivy_2.7.7-0.7.4.jar=Plugins.scala

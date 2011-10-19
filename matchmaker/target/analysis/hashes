@@ -1,0 +1,16 @@
+#Source Hashes
+#Wed Oct 19 10:37:17 PDT 2011
+target/gen-scala/com/twitter/matchmaker/MatchmakerException.scala=154b0de777626e23101483d99e9c046fd405bb3b
+target/gen-java/com/twitter/matchmaker/thrift/MatchmakerException.java=13b70ec7c969b9ac488cfd45e73d349732306281
+target/gen-scala/com/outright/matchmaker/MatchmakerService.scala=f13fb851c75ace69bec4542f3c1b16214b560753
+target/gen-java/com/twitter/matchmaker/thrift/MatchmakerService.java=243ec6f47fe55cb870ffb45bf9a0f0950e814048
+src/main/scala/com/outright/matchmaker/OutrightImplicits.scala=55b0a233bcad7f8a2bf7e2265dd31c49ed51ec47
+target/gen-scala/com/twitter/matchmaker/MatchmakerService.scala=616c45bf267ece468b45175427bc854201e39aac
+target/gen-java/com/outright/matchmaker/thrift/MatchmakerService.java=52f4a82350a3521b8f9a2c68f2517a88ee2e2f98
+src/main/scala/com/outright/matchmaker/MatchmakerServiceImpl.scala=907167c3edb36491eb16cfd166e05bb2d613ef7c
+src/main/scala/com/outright/matchmaker/Model.scala=ed75f14b5c7e764e0ec2dbfdb21a1ae6fbabaed6
+src/main/scala/com/outright/matchmaker/MatchMaker.scala=f5276d9bbb01708f210b713da70f8c2681aa17ac
+target/gen-scala/com/outright/matchmaker/MatchmakerException.scala=a01c0fa22269b287cd895e2959dd61928e0bdc33
+target/gen-java/com/outright/matchmaker/thrift/MatchmakerException.java=062014de2902f8fc73e7b7ce769cf6a49a890ec2
+src/main/scala/com/outright/matchmaker/config/MatchmakerServiceConfig.scala=dd2fedd30dc3469c159d55aacbda367b11a70104
+src/main/scala/com/outright/matchmaker/Main.scala=3ed761a89f174fc5a7fbe8c2ef839cef1bc28acc

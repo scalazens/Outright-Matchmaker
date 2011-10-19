@@ -1,0 +1,89 @@
+700 [20111019-05:18:03.934] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20111019-05:18:03.939] net: context created: /
+700 [20111019-05:18:03.940] net: context created: /report/
+700 [20111019-05:18:03.940] net: context created: /favicon.ico
+700 [20111019-05:18:03.941] net: context created: /static
+700 [20111019-05:18:03.941] net: context created: /pprof/heap
+700 [20111019-05:18:03.962] net: context created: /graph/
+700 [20111019-05:18:03.962] net: context created: /graph_data
+INF [20111019-05:18:03.963] admin: Starting TimeSeriesCollector
+DEB [20111019-05:18:04.080] nio: Using the autodetected NIO constraint level: 0
+700 [20111019-10:37:23.875] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20111019-10:37:23.880] net: context created: /
+700 [20111019-10:37:23.881] net: context created: /report/
+700 [20111019-10:37:23.881] net: context created: /favicon.ico
+700 [20111019-10:37:23.882] net: context created: /static
+700 [20111019-10:37:23.882] net: context created: /pprof/heap
+700 [20111019-10:37:23.902] net: context created: /graph/
+700 [20111019-10:37:23.902] net: context created: /graph_data
+INF [20111019-10:37:23.903] admin: Starting TimeSeriesCollector
+DEB [20111019-10:37:24.015] nio: Using the autodetected NIO constraint level: 0
+DEB [20111019-10:41:59.277] admin: Loading resource from file: /graph.html
+DEB [20111019-10:41:59.281] net: GET /graph/ HTTP/1.1 [200  OK] ()
+DEB [20111019-10:41:59.314] admin: Loading resource from file: /static/jquery.js
+DEB [20111019-10:41:59.389] net: GET /static/jquery.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:41:59.390] admin: Loading resource from file: /static/jquery.flot.js
+DEB [20111019-10:41:59.424] net: GET /static/jquery.flot.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:41:59.425] admin: Loading resource from file: /static/drawgraph.js
+DEB [20111019-10:41:59.427] net: GET /static/drawgraph.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:41:59.428] admin: Loading resource from file: /static/jquery.flot.selection.js
+DEB [20111019-10:41:59.430] net: GET /static/jquery.flot.selection.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:41:59.460] net: GET /graph_data HTTP/1.1 [200  OK] ()
+DEB [20111019-10:41:59.506] net: GET /favicon.ico HTTP/1.1 [404  Not Found] ()
+DEB [20111019-10:42:05.493] net: GET /graph/?g=gauge:jvm_nonheap_committed HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:05.516] admin: Loading resource from file: /static/jquery.js
+DEB [20111019-10:42:05.538] net: GET /static/jquery.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:05.539] admin: Loading resource from file: /static/jquery.flot.js
+DEB [20111019-10:42:05.560] net: GET /static/jquery.flot.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:05.561] admin: Loading resource from file: /static/drawgraph.js
+DEB [20111019-10:42:05.562] net: GET /static/drawgraph.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:05.563] admin: Loading resource from file: /static/jquery.flot.selection.js
+DEB [20111019-10:42:05.565] net: GET /static/jquery.flot.selection.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:05.581] net: GET /graph_data/gauge:jvm_nonheap_committed?p=1,2,5 HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:05.629] net: GET /favicon.ico HTTP/1.1 [404  Not Found] ()
+DEB [20111019-10:42:07.691] net: GET /favicon.ico HTTP/1.1 [404  Not Found] ()
+DEB [20111019-10:42:08.946] net: GET /graph/?g=gauge:Matchmaker/connections HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:08.964] admin: Loading resource from file: /static/jquery.flot.js
+DEB [20111019-10:42:08.993] net: GET /static/jquery.flot.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:08.994] admin: Loading resource from file: /static/jquery.flot.selection.js
+DEB [20111019-10:42:08.997] net: GET /static/jquery.flot.selection.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:08.998] admin: Loading resource from file: /static/jquery.js
+DEB [20111019-10:42:09.012] net: GET /static/jquery.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:09.012] admin: Loading resource from file: /static/drawgraph.js
+DEB [20111019-10:42:09.014] net: GET /static/drawgraph.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:09.031] net: GET /graph_data/gauge:Matchmaker/connections?p=1,2,5 HTTP/1.1 [500  Internal Server Error] ()
+ERR [20111019-10:42:09.031] admin: Exception processing admin http request
+ERR [20111019-10:42:09.031] admin: java.util.NoSuchElementException: key not found: connections
+ERR [20111019-10:42:09.031] admin:     at scala.collection.MapLike$class.default(MapLike.scala:223)
+ERR [20111019-10:42:09.031] admin:     at scala.collection.mutable.HashMap.default(HashMap.scala:39)
+ERR [20111019-10:42:09.031] admin:     at scala.collection.MapLike$class.apply(MapLike.scala:134)
+ERR [20111019-10:42:09.031] admin:     at scala.collection.mutable.HashMap.apply(HashMap.scala:39)
+ERR [20111019-10:42:09.031] admin:     at com.twitter.ostrich.admin.TimeSeriesCollector.get(TimeSeriesCollector.scala:87)
+ERR [20111019-10:42:09.031] admin:     at com.twitter.ostrich.admin.TimeSeriesCollector$$anon$2.handle(TimeSeriesCollector.scala:110)
+ERR [20111019-10:42:09.031] admin:     at com.twitter.ostrich.admin.CgiRequestHandler.handle(AdminHttpService.scala:135)
+ERR [20111019-10:42:09.031] admin:     at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:65)
+ERR [20111019-10:42:09.031] admin:     at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:65)
+ERR [20111019-10:42:09.031] admin:     at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:68)
+ERR [20111019-10:42:09.031] admin:     at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:555)
+ERR [20111019-10:42:09.031] admin:     at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:65)
+ERR [20111019-10:42:09.031] admin:     at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:527)
+ERR [20111019-10:42:09.031] admin:     at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:119)
+ERR [20111019-10:42:09.031] admin:     at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:349)
+ERR [20111019-10:42:09.031] admin:     at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:321)
+ERR [20111019-10:42:09.031] admin:     at java.lang.Thread.run(Thread.java:680)
+DEB [20111019-10:42:09.063] net: GET /favicon.ico HTTP/1.1 [404  Not Found] ()
+DEB [20111019-10:42:10.399] net: GET /favicon.ico HTTP/1.1 [404  Not Found] ()
+DEB [20111019-10:42:11.838] net: GET /graph/?g=gauge:jvm_heap_committed HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:11.857] admin: Loading resource from file: /static/jquery.js
+DEB [20111019-10:42:11.872] net: GET /static/jquery.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:11.873] admin: Loading resource from file: /static/jquery.flot.js
+DEB [20111019-10:42:11.888] net: GET /static/jquery.flot.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:11.888] admin: Loading resource from file: /static/drawgraph.js
+DEB [20111019-10:42:11.890] net: GET /static/drawgraph.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:11.891] admin: Loading resource from file: /static/jquery.flot.selection.js
+DEB [20111019-10:42:11.894] net: GET /static/jquery.flot.selection.js HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:11.920] net: GET /graph_data/gauge:jvm_heap_committed?p=1,2,5 HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:11.945] net: GET /favicon.ico HTTP/1.1 [404  Not Found] ()
+DEB [20111019-10:42:14.491] net: GET /favicon.ico HTTP/1.1 [404  Not Found] ()
+DEB [20111019-10:42:52.134] net: GET /stats.txt HTTP/1.1 [200  OK] ()
+DEB [20111019-10:42:52.178] net: GET /favicon.ico HTTP/1.1 [404  Not Found] ()

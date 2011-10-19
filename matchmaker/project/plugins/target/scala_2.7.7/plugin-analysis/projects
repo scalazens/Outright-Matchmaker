@@ -1,0 +1,4 @@
+#Project Definitions
+#Tue Oct 18 11:29:26 PDT 2011
+src_managed/standard-project-0.12.7/com/twitter/sbt/ProjectWrapper.scala=com.twitter.sbt.WrappedDefaultProject
+src_managed/standard-project-0.12.7/com/twitter/sbt/StandardProject.scala=com.twitter.sbt.StandardProject\:com.twitter.sbt.StandardServiceProject\:com.twitter.sbt.StandardLibraryProject\:com.twitter.sbt.StandardParentProject

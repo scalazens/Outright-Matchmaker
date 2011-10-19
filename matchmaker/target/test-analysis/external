@@ -1,0 +1,9 @@
+#External Dependencies
+#Wed Oct 19 05:17:19 PDT 2011
+/Users/sindhuc/outright/outright-kickstart/matchmaker/lib_managed/compile/util-core-1.8.5.jar=src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala\:src/test/scala/com/outright/matchmaker/AbstractSpec.scala
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar=src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala
+/Users/sindhuc/outright/outright-kickstart/matchmaker/target/classes/com/outright/matchmaker/MatchMaker$.class=src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala
+/Users/sindhuc/outright/outright-kickstart/matchmaker/target/classes/com/outright/matchmaker/MatchmakerService.class=src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala\:src/test/scala/com/outright/matchmaker/AbstractSpec.scala
+/Users/sindhuc/outright/outright-kickstart/matchmaker/lib_managed/test/specs_2.8.1-1.6.7.jar=src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala\:src/test/scala/com/outright/matchmaker/AbstractSpec.scala
+/Users/sindhuc/outright/outright-kickstart/matchmaker/lib_managed/compile/ostrich-4.0.2.jar=src/test/scala/com/outright/matchmaker/AbstractSpec.scala
+/Users/sindhuc/outright/outright-kickstart/matchmaker/project/boot/scala-2.8.1/lib/scala-library.jar=src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala\:src/test/scala/com/outright/matchmaker/AbstractSpec.scala

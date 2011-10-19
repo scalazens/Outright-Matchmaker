@@ -1,0 +1,4 @@
+#Classes with main methods
+#Wed Oct 19 10:37:17 PDT 2011
+src/main/scala/com/outright/matchmaker/MatchMaker.scala=com.outright.matchmaker.MatchMaker
+src/main/scala/com/outright/matchmaker/Main.scala=com.outright.matchmaker.Main

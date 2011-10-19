@@ -1,0 +1,16 @@
+#Source Dependencies
+#Wed Oct 19 10:37:17 PDT 2011
+target/gen-scala/com/twitter/matchmaker/MatchmakerException.scala=
+target/gen-java/com/twitter/matchmaker/thrift/MatchmakerException.java=target/gen-java/com/twitter/matchmaker/thrift/MatchmakerService.java
+target/gen-scala/com/outright/matchmaker/MatchmakerService.scala=src/main/scala/com/outright/matchmaker/MatchmakerServiceImpl.scala\:src/main/scala/com/outright/matchmaker/Main.scala\:src/main/scala/com/outright/matchmaker/config/MatchmakerServiceConfig.scala
+target/gen-java/com/twitter/matchmaker/thrift/MatchmakerService.java=
+src/main/scala/com/outright/matchmaker/OutrightImplicits.scala=src/main/scala/com/outright/matchmaker/MatchMaker.scala\:src/main/scala/com/outright/matchmaker/MatchmakerServiceImpl.scala
+target/gen-scala/com/twitter/matchmaker/MatchmakerService.scala=
+target/gen-java/com/outright/matchmaker/thrift/MatchmakerService.java=
+src/main/scala/com/outright/matchmaker/MatchmakerServiceImpl.scala=src/main/scala/com/outright/matchmaker/config/MatchmakerServiceConfig.scala
+src/main/scala/com/outright/matchmaker/Model.scala=src/main/scala/com/outright/matchmaker/MatchMaker.scala
+src/main/scala/com/outright/matchmaker/MatchMaker.scala=src/main/scala/com/outright/matchmaker/MatchmakerServiceImpl.scala
+target/gen-scala/com/outright/matchmaker/MatchmakerException.scala=src/main/scala/com/outright/matchmaker/MatchmakerServiceImpl.scala
+target/gen-java/com/outright/matchmaker/thrift/MatchmakerException.java=target/gen-java/com/outright/matchmaker/thrift/MatchmakerService.java
+src/main/scala/com/outright/matchmaker/config/MatchmakerServiceConfig.scala=src/main/scala/com/outright/matchmaker/MatchmakerServiceImpl.scala
+src/main/scala/com/outright/matchmaker/Main.scala=

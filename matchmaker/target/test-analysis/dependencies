@@ -1,0 +1,4 @@
+#Source Dependencies
+#Wed Oct 19 05:17:19 PDT 2011
+src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala=
+src/test/scala/com/outright/matchmaker/AbstractSpec.scala=src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala

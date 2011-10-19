@@ -1,0 +1,4 @@
+#Source Hashes
+#Wed Oct 19 05:17:19 PDT 2011
+src/test/scala/com/outright/matchmaker/MatchmakerServiceSpec.scala=30a11b1f43655a08088f0e157634f55dd62e4c66
+src/test/scala/com/outright/matchmaker/AbstractSpec.scala=98246fcde12c6cfcd721676d0e62697dd5f76b59
